@@ -7,8 +7,6 @@ The goal of this project is to develop a vision-language cross-modal pre-trainin
 
 The project is named **SLIP-Flood**, consisting of two modules: [FICM](#FICM) and [FTIRM](#FTIRM). **FICM** is responsible for the flood image classification task, while **FTIRM** handles flood image-text retrieval, auxiliary flood image classification, and auxiliary flood text classification tasks.
 
-本项目最终将开源两类图文基础数据集：**FloodMulS**、**FloodIT**。数据集的详细说明见章节[数据集说明](#数据集说明)
-
 This project will ultimately release two types of open-source vision-language datasets: **FloodMulS** and **FloodIT**. Detailed descriptions of the datasets can be found in the section [Dataset Description](#Dataset Description).
 
 ## Dataset Description
