@@ -120,3 +120,16 @@ Stores the test results of various models.
    - `./imageRetrieve.py`：Image-text retrieval script [To be released]
    - `./textClassify.py`：Auxiliary text classification script [To be released]
    - `./analyse_is_no_score.py`：Analyzes the probability values of each image category predicted by the model.
+
+## Pretrained model
+This project conducts separate training experiments for **FICM** and **FTIRM**, resulting in models of different scales.
+### FICM
+This project uses three different scales of SwinT pretrained models as initialization models, and performs fine-tuning to obtain the corresponding **FICM** models:
+   - SLIP-Flood_FICM_Tiny：The SwinT pretrained model has a Tiny scale，[Download link](https://huggingface.co/muhan-yy/SLIP-Flood_FICM_Tiny) [Pending release]
+   - SLIP-Flood_FICM_Base：The SwinT pretrained model has a Base scale，[Download link](https://huggingface.co/muhan-yy/SLIP-Flood_FICM_Base) [Pending release]
+   - SLIP-Flood_FICM_Large：The SwinT pretrained model has a Large scale，[Download link](https://huggingface.co/muhan-yy/SLIP-Flood_FICM_Large) [Pending release]
+
+### FTIRM
+This project uses two different scales of pretrained models to initialize the **FTIRM** text encoder, while the image encoder uses only vit-large-patch16-224, resulting in the corresponding **FTIRM** models.
+   - SLIP-Flood_FTIRM_Base_Large：The Text Encoder has a Base scale，[Download link](https://huggingface.co/muhan-yy/SLIP-Flood_FTIRM_Base_Large) [Pending release]
+   - SLIP-Flood_FTIRM_Large_Large：The Text Encoder has a Large scale，[Download link](https://huggingface.co/muhan-yy/SLIP-Flood_FTIRM_Large_Large) [Pending release]
