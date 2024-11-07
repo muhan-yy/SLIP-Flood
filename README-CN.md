@@ -117,3 +117,16 @@
    - `./imageRetrieve.py`：图文检索脚本[待发布]
    - `./textClassify.py`：辅助文本分类脚本[待发布]
    - `./analyse_is_no_score.py`：针对模型预测出的图片各类别概率值进行分析
+
+## 预训练模型
+本项目分别针对**FICM**、**FTIRM**开展不同的训练实验，最终得到不同规模的模型。
+### FICM
+本项目分别采用三个规模的SwinT预训练模型作为初始化模型，并开展微调工作，最终得到对应的**FICM**模型：
+- SLIP-Flood_FICM_Tiny：SwinT预训练模型的规模为Tiny，[下载链接](https://huggingface.co/muhan-yy/SLIP-Flood_FICM_Tiny) [待发布]
+- SLIP-Flood_FICM_Base：SwinT预训练模型的规模为Base，[下载链接](https://huggingface.co/muhan-yy/SLIP-Flood_FICM_Base) [待发布]
+- SLIP-Flood_FICM_Large：SwinT预训练模型的规模为Large，[下载链接](https://huggingface.co/muhan-yy/SLIP-Flood_FICM_Large) [待发布]
+
+### FTIRM
+本项目分别采用两个规模的预训练模型用于初始化**FTIRM**的文本编码器，图片编码器只采用vit-large-patch16-224，最终得到对应的**FTIRM**模型：
+- SLIP-Flood_FTIRM_Base_Large：文本编码器规模为Base，[下载链接](https://huggingface.co/muhan-yy/SLIP-Flood_FTIRM_Base_Large) [待发布]
+- SLIP-Flood_FTIRM_Large_Large：文本编码器规模为Large，[下载链接](https://huggingface.co/muhan-yy/SLIP-Flood_FTIRM_Large_Large) [待发布]
