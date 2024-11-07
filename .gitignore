@@ -1,0 +1,10 @@
+/FICM/do_train.py
+/FICM/do_test.py
+/FICM/do_predict.py
+/FICM/model.py
+/FICM/utils.py
+/FTIRM/train.py
+/FTIRM/model.py
+/FTIRM/imageClassify.py
+/FTIRM/imageRetrieve.py
+/FTIRM/textClassify.py

@@ -1,0 +1,5 @@
+numpy==1.23.4
+pandas==1.5.2
+Pillow==9.4.0
+tqdm==4.64.1
+transformers==4.10.0
