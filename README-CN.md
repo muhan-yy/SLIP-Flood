@@ -12,7 +12,7 @@
 ## 数据集说明
 ### FloodMulS
 
-数据集**FloodMulS**用于训练**SLIP-Flood**中的**FICM**模块。可通过[下载链接]()获取。
+数据集**FloodMulS**用于训练**SLIP-Flood**中的**FICM**模块。可通过[下载链接](https://www.kaggle.com/datasets/muhantang/floodmuls-and-floodit/data)获取。
 
 **FloodMulS**包括46.5万张图片，其中训练数据集有45.5万张，测试数据集有1万张。
 训练数据集中数据增强的图片占比为25%，本项目采用6种数据增强方式：随机选择、调整亮度、调整对比度、颜色抖动、添加高斯噪声和添加椒盐噪声，每张图片随机采用某一种数据增强方式。示例如下图：
@@ -21,7 +21,7 @@
 
 ### FloodIT
 
-数据集**FloodIT**用于训练**SLIP-Flood**中的**FTIRM**模块。可通过[下载链接]()获取。
+数据集**FloodIT**用于训练**SLIP-Flood**中的**FTIRM**模块。可通过[下载链接](https://www.kaggle.com/datasets/muhantang/floodmuls-and-floodit/data)获取。
 
 **FloodIT**包括23.7万个图文对数据，每个图文对数据包括：1张图片、1个中文描述标题、1个中文类别标签以及5个英文描述文本。因此，**FloodIT**可被转变成118.5万个图文对数据。此外，本项目构建了1万个图文对数据用于测试模型性能，每个测试数据包括：1张图片、1个中文描述标题以及1个中文类别标签。示例如下图：
 
