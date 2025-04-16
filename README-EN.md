@@ -7,11 +7,14 @@ The goal of this project is to develop a vision-language cross-modal pre-trainin
 
 The project is named **SLIP-Flood**, consisting of two modules: [FICM](#FICM) and [FTIRM](#FTIRM). **FICM** is responsible for the flood image classification task, while **FTIRM** handles flood image-text retrieval, auxiliary flood image classification, and auxiliary flood text classification tasks.
 
+本项目最终将开源两类图文基础数据集：**FloodMulS**、**FloodIT**。数据集的详细说明见章节[数据集说明](#数据集说明)
+
 This project will ultimately release two types of open-source vision-language datasets: **FloodMulS** and **FloodIT**. Detailed descriptions of the datasets can be found in the section [Dataset](#Dataset).
 
 ## Dataset
 ### FloodMulS
-The dataset **FloodMulS** is used to train the **FICM** module in **SLIP-Flood**. It can be accessed via the [download link-kaggle](https://www.kaggle.com/datasets/muhantang/floodmuls-and-floodit/data) | [download link-hugging face](https://huggingface.co/datasets/muhan-yy/FloodMulS).
+
+The dataset **FloodMulS** is used to train the **FICM** module in **SLIP-Flood**. It can be accessed via the [download link]().
 
 
 **FloodMulS** includes 465,000 images, with 455,000 images in the training dataset and 10,000 images in the test dataset.
@@ -22,7 +25,7 @@ In the training dataset, 25% of the images are augmented. This project uses six 
 
 ### FloodIT
 
-The dataset **FloodIT** is used to train the **FTIRM** module in **SLIP-Flood**. It can be accessed via the [download link-kaggle](https://www.kaggle.com/datasets/muhantang/floodmuls-and-floodit/data) | [download link-hugging face](https://huggingface.co/datasets/muhan-yy/FloodIT).
+The dataset **FloodIT** is used to train the **FTIRM** module in **SLIP-Flood**. It can be accessed via the [download link]().
 
 **FloodIT** includes 237,000 image-text pairs, where each pair consists of: 1 image, 1 Chinese description title, 1 Chinese category label, and 5 English description texts. Therefore, **FloodIT** can be expanded into 1,185,000 image-text pairs. Additionally, this project has constructed 10,000 image-text pairs for testing the model's performance, with each test pair containing: 1 image, 1 Chinese description title, and 1 Chinese category label. An example is shown below:
 
@@ -130,5 +133,15 @@ This project uses three different scales of SwinT pretrained models as initializ
 
 ### FTIRM
 This project uses two different scales of pretrained models to initialize the **FTIRM** text encoder, while the image encoder uses only vit-large-patch16-224, resulting in the corresponding **FTIRM** models.
-   - SLIP-Flood_FTIRM_Base_Large：The Text Encoder has a Base scale，[Download link](https://huggingface.co/muhan-yy/SLIP-Flood_FTIRM_Base_Large) [Pending release]
-   - SLIP-Flood_FTIRM_Large_Large：The Text Encoder has a Large scale，[Download link](https://huggingface.co/muhan-yy/SLIP-Flood_FTIRM_Large_Large) [Pending release]
+- SLIP-Flood_FTIRM_Base_Large：The Text Encoder has a Base scale，[Download link](https://huggingface.co/muhan-yy/SLIP-Flood_FTIRM_Base_Large) [Pending release]
+    ```
+     best_checkpoint_evalLoss.pt: The best model based on the eval loss.
+     best_checkpoint_score.pt: The best model based on the score.
+     best_checkpoint_trainLoss.pt: The best model based on the train loss.
+    ```
+- SLIP-Flood_FTIRM_Large_Large：The Text Encoder has a Large scale，[Download link](https://huggingface.co/muhan-yy/SLIP-Flood_FTIRM_Large_Large) [Pending release]
+    ```
+     best_checkpoint_evalLoss.pt: The best model based on the eval loss.
+     best_checkpoint_score.pt: The best model based on the score.
+     best_checkpoint_trainLoss.pt: The best model based on the train loss.
+    ```
