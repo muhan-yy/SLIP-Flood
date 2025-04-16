@@ -91,9 +91,10 @@
 2. `./data/`
 用于存放**FTIRM**所需的各类数据，包括：
     - `./images`：用于存放用于不同功能的图片数据，`train`存放用于训练数据集，`test`存放用于测试数据集，`predict`存放用于模型测试的1万张图片，`flood_is`存放`predict`中类别为“与洪灾相关”的图片，`flood_no`存放`predict`中类别为“与洪灾不相关”的图片，`predict-is`存放被模型预测为“与洪灾相关”的图片，`predict-no`存放被模型预测为“与洪灾不相关”的图片。
+      不同类型的数据集可根据'./data/'中的tsv文件以及'images_all'中所有的图片获取
     - `images_all`：存放数据集**FloodIT**对应的所有图片
 
-3. `./data/`中的tsv文件
+1. `./data/`中的tsv文件
     - `./example_predict-label.tsv`：`predict`中1万张图片及其中文标签
     - `./example_predict-title.tsv`：`predict`中1万张图片及其中文标题
     - `./example_test-label.tsv`：`test`中所有图片及其中文标签
@@ -101,16 +102,16 @@
     - `./example_train-label.tsv`：`train`中所有图片及其中文标签
     - `./example_train-label.tsv`：`train`中所有图片及其中文标题
   
-4. `./models/`
+2. `./models/`
 存放用于初始化**FTIRM**中图片编码器与文本编码器的预训练模型
     - `./chinese-roberta-wwm-ext`：初始化文本编码器，模型规模为base
     - `./chinese-roberta-wwm-ext-large`：初始化文本编码器，模型规模为large
     - `./vit-large-patch16-224`：初始化图片编码器，模型规模为large
 
-5. `./result/`
+1. `./result/`
 存放各类模型测试结果
 
-6. 脚本说明
+1. 脚本说明
    - `./train.py`：训练脚本[待发布]
    - `./model.py`：模型脚本[待发布]
    - `./imageClassify.py`：图片分类脚本[待发布]
