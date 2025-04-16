@@ -96,9 +96,10 @@ Used to store the pre-trained models obtained from training the **FTIRM** model.
 2. `./data/`
 Used to store various types of data required by **FTIRM**, including:
     - `./images`：Used to store image data for different functions. `train` contains the training dataset, `test` contains the testing dataset, `predict` contains 10,000 images for model testing, `flood_is` contains images from `predict` classified as "flood-related," `flood_no` contains images from `predict` classified as "not flood-related," `predict-is` contains images predicted by the model as "flood-related," and `predict-no` contains images predicted by the model as "not flood-related."
+     Different types of data sets can be obtained by considering the tsv files in './data/' and all the images in 'images_all'
     - `images_all`：Stores all images corresponding to the **FloodIT** dataset.
 
-3. The tsv files in `./data/`.
+1. The tsv files in `./data/`.
     - `./example_predict-label.tsv`：10,000 images in `predict` and their Chinese labels.
     - `./example_predict-title.tsv`：10,000 images in `predict` and their Chinese titles.
     - `./example_test-label.tsv`： All images in `test` and their Chinese labels.
@@ -106,16 +107,16 @@ Used to store various types of data required by **FTIRM**, including:
     - `./example_train-label.tsv`：All images in `train` and their Chinese labels.
     - `./example_train-label.tsv`：All images in `train` and their Chinese titles.
   
-4. `./models/`
+2. `./models/`
 Stores the pre-trained models used to initialize the image encoder and text encoder in **FTIRM**.
     - `./chinese-roberta-wwm-ext`： Initializes the text encoder, with a model size of base.
     - `./chinese-roberta-wwm-ext-large`：Initializes the text encoder, with a model size of large.
     - `./vit-large-patch16-224`：Initializes the image encoder, with a model size of large.
 
-5. `./result/`
+1. `./result/`
 Stores the test results of various models.
 
-6. Script Description
+1. Script Description
    - `./train.py`：Training script [To be released]
    - `./model.py`：Model script [To be released]
    - `./imageClassify.py`：Image classification script [To be released]
