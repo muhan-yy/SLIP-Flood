@@ -76,11 +76,11 @@ Used to store pre-trained models of various scales for SwinT, which can be downl
 Used to store the pre-trained models obtained from training the **FICM** module.
 
 4. 脚本/文件说明
-   - `./do_train.py`：Training script [To be released]
-   - `./do_test.py`：Testing script [To be released]
-   - `./do_predict.py`：Inference script [To be released]
-   - `./models.py`：Encapsulated model framework [To be released]
-   - `./utils.py`：Utility functions [To be released]
+   - `./do_train.py`：Training script
+   - `./do_test.py`：Testing script
+   - `./do_predict.py`：Inference script
+   - `./models.py`：Encapsulated model framework
+   - `./utils.py`：Utility functions
    - `./data_augmentation.py`：Data augmentation
    - `./analyse_is_no_score.py`：Visualizes various metrics based on the category probability values of the images in the test set inferred by the model, and determines the optimal classification threshold using Soft Categorization Strategy
    - `./class_indices.json`：Indexes corresponding to image categories
@@ -116,11 +116,11 @@ Stores the pre-trained models used to initialize the image encoder and text enco
 Stores the test results of various models.
 
 1. Script Description
-   - `./train.py`：Training script [To be released]
-   - `./model.py`：Model script [To be released]
-   - `./imageClassify.py`：Image classification script [To be released]
-   - `./imageRetrieve.py`：Image-text retrieval script [To be released]
-   - `./textClassify.py`：Auxiliary text classification script [To be released]
+   - `./train.py`：Training script
+   - `./model.py`：Model script
+   - `./imageClassify.py`：Image classification script
+   - `./imageRetrieve.py`：Image-text retrieval script
+   - `./textClassify.py`：Auxiliary text classification script
    - `./analyse_is_no_score.py`：Analyzes the probability values of each image category predicted by the model.
 
 ## Pretrained model
