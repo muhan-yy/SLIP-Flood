@@ -127,19 +127,19 @@ Stores the test results of various models.
 This project conducts separate training experiments for **FICM** and **FTIRM**, resulting in models of different scales.
 ### FICM
 This project uses three different scales of SwinT pretrained models as initialization models, and performs fine-tuning to obtain the corresponding **FICM** models:
-   - SLIP-Flood_FICM_Tiny：The SwinT pretrained model has a Tiny scale，[Download link](https://huggingface.co/muhan-yy/SLIP-Flood_FICM_Tiny) [Pending release]
-   - SLIP-Flood_FICM_Base：The SwinT pretrained model has a Base scale，[Download link](https://huggingface.co/muhan-yy/SLIP-Flood_FICM_Base) [Pending release]
-   - SLIP-Flood_FICM_Large：The SwinT pretrained model has a Large scale，[Download link](https://huggingface.co/muhan-yy/SLIP-Flood_FICM_Large) [Pending release]
+   - SLIP-Flood_FICM_Tiny：The SwinT pretrained model has a Tiny scale，[huggingface](https://huggingface.co/muhan-yy/SLIP-Flood_FICM_Tiny)/[ModelScope](https://www.modelscope.cn/models/muhanyy/SLIP-Flood_FICM_Tiny)
+   - SLIP-Flood_FICM_Base：The SwinT pretrained model has a Base scale，[huggingface](https://huggingface.co/muhan-yy/SLIP-Flood_FICM_Base)/[ModelScope](https://www.modelscope.cn/models/muhanyy/SLIP-Flood_FICM_Base)
+   - SLIP-Flood_FICM_Large：The SwinT pretrained model has a Large scale，[huggingface](https://huggingface.co/muhan-yy/SLIP-Flood_FICM_Large)/[ModelScope](https://www.modelscope.cn/models/muhanyy/SLIP-Flood_FICM_Large)
 
 ### FTIRM
 This project uses two different scales of pretrained models to initialize the **FTIRM** text encoder, while the image encoder uses only vit-large-patch16-224, resulting in the corresponding **FTIRM** models.
-- SLIP-Flood_FTIRM_Base_Large：The Text Encoder has a Base scale，[Download link](https://huggingface.co/muhan-yy/SLIP-Flood_FTIRM_Base_Large) [Pending release]
+- SLIP-Flood_FTIRM_Base_Large：The Text Encoder has a Base scale，[huggingface](https://huggingface.co/muhan-yy/SLIP-Flood_FTIRM_Base_Large)/[ModelScope](https://www.modelscope.cn/models/muhanyy/SLIP-Flood_FTIRM_Base_Large)
     ```
      best_checkpoint_evalLoss.pt: The best model based on the eval loss.
      best_checkpoint_score.pt: The best model based on the score.
      best_checkpoint_trainLoss.pt: The best model based on the train loss.
     ```
-- SLIP-Flood_FTIRM_Large_Large：The Text Encoder has a Large scale，[Download link](https://huggingface.co/muhan-yy/SLIP-Flood_FTIRM_Large_Large) [Pending release]
+- SLIP-Flood_FTIRM_Large_Large：The Text Encoder has a Large scale，[huggingface](https://huggingface.co/muhan-yy/SLIP-Flood_FTIRM_Large_Large)/[ModelScope](https://www.modelscope.cn/models/muhanyy/SLIP-Flood_FTIRM_Large_Large)
     ```
      best_checkpoint_evalLoss.pt: The best model based on the eval loss.
      best_checkpoint_score.pt: The best model based on the score.
