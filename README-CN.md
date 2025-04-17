@@ -72,11 +72,11 @@
 用于存放**FICM**模块训练获得的预训练模型
 
 4. 脚本/文件说明
-   - `./do_train.py`：训练脚本 [待发布]
-   - `./do_test.py`：测试脚本 [待发布]
-   - `./do_predict.py`：推理脚本 [待发布]
-   - `./models.py`：封装好的模型框架 [待发布]
-   - `./utils.py`：相关函数 [待发布]
+   - `./do_train.py`：训练脚本
+   - `./do_test.py`：测试脚本
+   - `./do_predict.py`：推理脚本
+   - `./models.py`：封装好的模型框架
+   - `./utils.py`：相关函数
    - `./data_augmentation.py`：数据增强
    - `./analyse_is_no_score.py`：根据模型推理出的各测试集图片的类别概率值可视化各类指标，并采用Soft Categorization Strategy判定最有分类阈值
    - `./class_indices.json`：图片类别对应的索引
@@ -112,11 +112,11 @@
 存放各类模型测试结果
 
 1. 脚本说明
-   - `./train.py`：训练脚本[待发布]
-   - `./model.py`：模型脚本[待发布]
-   - `./imageClassify.py`：图片分类脚本[待发布]
-   - `./imageRetrieve.py`：图文检索脚本[待发布]
-   - `./textClassify.py`：辅助文本分类脚本[待发布]
+   - `./train.py`：训练脚本
+   - `./model.py`：模型脚本
+   - `./imageClassify.py`：图片分类脚本
+   - `./imageRetrieve.py`：图文检索脚本
+   - `./textClassify.py`：辅助文本分类脚本
    - `./analyse_is_no_score.py`：针对模型预测出的图片各类别概率值进行分析
 
 ## 预训练模型
