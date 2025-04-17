@@ -13,7 +13,7 @@ This project will ultimately release two types of open-source vision-language da
 ## Dataset
 ### FloodMulS
 
-The dataset **FloodMulS** is used to train the **FICM** module in **SLIP-Flood**. It can be accessed via the [HuggingFace](https://huggingface.co/datasets/muhan-yy/FloodMulS)/[ModelScope](https://www.modelscope.cn/datasets/muhanyy/FloodMulS).
+The dataset **FloodMulS** is used to train the **FICM** module in **SLIP-Flood**. It can be accessed via the [HuggingFace](https://huggingface.co/datasets/muhan-yy/FloodMulS)[To be released]/[ModelScope](https://www.modelscope.cn/datasets/muhanyy/FloodMulS).
 
 
 **FloodMulS** includes 465,000 images, with 455,000 images in the training dataset and 10,000 images in the test dataset.
@@ -24,7 +24,7 @@ In the training dataset, 25% of the images are augmented. This project uses six 
 
 ### FloodIT
 
-The dataset **FloodIT** is used to train the **FTIRM** module in **SLIP-Flood**. It can be accessed via the [HuggingFace](https://huggingface.co/datasets/muhan-yy/FloodIT)/[ModelScope](https://www.modelscope.cn/datasets/muhanyy/FloodIT).
+The dataset **FloodIT** is used to train the **FTIRM** module in **SLIP-Flood**. It can be accessed via the [HuggingFace](https://huggingface.co/datasets/muhan-yy/FloodIT)[To be released]/[ModelScope](https://www.modelscope.cn/datasets/muhanyy/FloodIT).
 
 **FloodIT** includes 237,000 image-text pairs, where each pair consists of: 1 image, 1 Chinese description title, 1 Chinese category label, and 5 English description texts. Therefore, **FloodIT** can be expanded into 1,185,000 image-text pairs. Additionally, this project has constructed 10,000 image-text pairs for testing the model's performance, with each test pair containing: 1 image, 1 Chinese description title, and 1 Chinese category label. An example is shown below:
 
